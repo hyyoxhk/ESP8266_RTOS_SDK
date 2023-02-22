@@ -221,7 +221,7 @@ config ESPTOOLPY_MONITOR_BAUD_OTHER
 endchoice
 
 config ESPTOOLPY_MONITOR_BAUD_OTHER_VAL
-    int "Custom baud rate value" if MONITOR_BAUD_OTHER
+    int "Custom baud rate value" if ESPTOOLPY_MONITOR_BAUD_OTHER
     default 74880
 
 config ESPTOOLPY_MONITOR_BAUD
